@@ -71,7 +71,7 @@ const EditCity = () => {
     style={{width:"100px",margin:'40px 40px'}}
     color="secondary" 
     variant="contained"
-    onClick={()=> navigate("/admin_home")}
+    onClick={()=> navigate("/")}
     >Back
     </Button>
 
@@ -88,6 +88,8 @@ const EditCity = () => {
     <TextField id="standard-basic" name="country" label="Salary" value={country} type="number" onChange={handleInputChange} />
     <br/>
     <TextField id="standard-basic" name="city" label="City" value={city} type="text" onChange={handleInputChange} />
+    <br/>
+    <TextField id="standard-basic" name="age" label="Age" value={age} type="number" onChange={handleInputChange} />
     <br/>
     <TextField id="standard-basic" name="population" label="Population" value={population} type="text" onChange={handleInputChange} />
     <br/>
